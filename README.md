@@ -26,19 +26,14 @@ Grupo: NJ Tech
 </table>
 
 <h1>Link Para o projeto</h1>
-https://wokwi.com/projects/397483223723166721
-
+https://wokwi.com/projects/409870629323275265
 
 <h1>Materiais:</h1>
 <ul>
-  <li>Arduin Uno</li>
+  <li>ESP32</li>
   <li>Breadboard</li>
-  <li>LCD 16x2</li>
-  <li>4x resistors</li>
-  <li>3x LED's</li>
   <li>Photoresistor (LDR) Sensor</li>
   <li>DHT22</li>
-  <li>Buzzer</li>
 </ul>
 
 
