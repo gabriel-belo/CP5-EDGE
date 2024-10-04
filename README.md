@@ -54,16 +54,16 @@ Nós implementamos um projeto que utiliza o ESP32 para capturar dados de tempera
 </br>
 2. Programação do ESP32:
   - Desenvolvemos o código para fazer leituras constantes desses sensores.
-  - Configuramos a conexão do ESP32 a uma rede Wi-Fi e integramos com o protocolo MQTT para enviar os dados coletados para um servidor
+  - Incluimos as bibliotecas necessárias para o desenvolvimento do projeto. Então configuramos a conexão do ESP32 a uma rede Wi-Fi e integramos com o protocolo MQTT para enviar os dados coletados para um servidor.
 
 </br>
 3. Envio de Dados ao Servidor:
-  - Usamos o broker público **HiveMQ** para enviar os dados da adega.
-  - Os dados eram enviados em formato **JSON**, contendo as leituras de temperatura, umidade e luminosidade.
+  - Usamos o broker público HiveMQ para enviar os dados da adega.
+  - Os dados eram enviados em formato JSON, contendo as leituras de temperatura, umidade e luminosidade.
 
 </br>
 4. Aplicativo MyMQTT:
-  - Configuramos o aplicativo **MyMQTT** para ler os dados que foram enviados pelo ESP32.
+  - Configuramos o aplicativo MyMQTT para ler os dados que foram enviados pelo ESP32.
   - A partir do MyMQTT, conseguimos visualizar em tempo real as condições internas da adega.
 
 </br>
