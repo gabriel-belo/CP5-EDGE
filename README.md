@@ -38,7 +38,8 @@ https://wokwi.com/projects/409870629323275265
 
 
 <h1>Foto do sistema:</h1>
-<img src=""/>
+<img src="https://github.com/user-attachments/assets/fdbf0dd1-6aae-4942-b9d7-0e8462161ccd
+"/>
 
 
 <h2>Explicação do projeto</h2>
