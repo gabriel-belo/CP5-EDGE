@@ -41,6 +41,8 @@ https://wokwi.com/projects/409870629323275265
 <h1>Foto do sistema:</h1>
 <img src=""/>
 
+
+<h2>Explicação do projeto</h2>
 Nós implementamos um projeto que utiliza o **ESP32** para capturar dados de **temperatura**, **umidade** e **luminosidade** em uma adega, utilizando dois sensores: o **DHT11** (para temperatura e umidade) e o **LDR** (para luminosidade). Nosso objetivo foi monitorar essas variáveis para garantir as condições ideais de conservação dos vinhos.
 </br>
 <h2>O que fizemos:</h2>
