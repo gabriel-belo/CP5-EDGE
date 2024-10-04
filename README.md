@@ -61,7 +61,7 @@ Nós implementamos um projeto que utiliza o ESP32 para capturar dados de tempera
 
 </br>
 4. Aplicativo MyMQTT:
-  - Configuramos o aplicativo MyMQTT para ler os dados que foram enviados pelo ESP32.
+  - Configuramos o aplicativo MyMQTT com o IP e os topics para ler os dados que foram enviados pelo ESP32.
   - A partir do MyMQTT, conseguimos visualizar em tempo real as condições internas da adega.
 
 </br>
