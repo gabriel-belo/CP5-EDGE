@@ -32,7 +32,7 @@ https://wokwi.com/projects/409870629323275265
 <ul>
   <li>ESP32</li>
   <li>Photoresistor (LDR) Sensor</li>
-  <li>DHT11</li>
+  <li>DHT22</li>
 </ul>
 
 
@@ -46,8 +46,10 @@ Nós implementamos um projeto que utiliza o ESP32 para capturar dados de tempera
 <h2>O que fizemos:</h2>
 </br>
 1. Montagem dos Sensores:
-  - Conectamos o DHT11 ao ESP32 para medir a temperatura e a umidade.
+  - Conectamos o DHT22 ao ESP32 para medir a temperatura e a umidade.
   - Ligamos o LDR para monitorar os níveis de luminosidade dentro da adega.
+
+  *Durante o desenvolvimento do projeto  em sala de aula utilizamos uma placa que possui alguns componentes, dentre eles estavam o LDR e um DHT11, fazendo assim com que tenha algumas diferenças para o projeto desenvolvido no wokwi.
 
 </br>
 2. Programação do ESP32:
