@@ -39,4 +39,4 @@ https://wokwi.com/projects/409870629323275265
 
 
 <h1>Foto do sistema:</h1>
-<img src="https://github.com/gabriel-belo/EDGE--CP2/assets/126474319/76188a39-0186-4587-8c9b-e5d431bc4198"/>
+<img src=""/>
