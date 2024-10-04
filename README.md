@@ -42,7 +42,7 @@ https://wokwi.com/projects/409870629323275265
 
 
 <h2>Explicação do projeto</h2>
-Nós implementamos um projeto que utiliza o **ESP32** para capturar dados de **temperatura**, **umidade** e **luminosidade** em uma adega, utilizando dois sensores: o **DHT11** (para temperatura e umidade) e o **LDR** (para luminosidade). Nosso objetivo foi monitorar essas variáveis para garantir as condições ideais de conservação dos vinhos.
+Nós implementamos um projeto que utiliza o ESP32 para capturar dados de temperatura, umidade e luminosidade em uma adega, utilizando dois sensores: o DHT11 (para temperatura e umidade) e o LDR (para luminosidade). Nosso objetivo foi monitorar essas variáveis para garantir as condições ideais de conservação dos vinhos.
 </br>
 <h2>O que fizemos:</h2>
 </br>
@@ -53,15 +53,15 @@ Nós implementamos um projeto que utiliza o **ESP32** para capturar dados de **t
 </br>
 2. Programação do ESP32:
   - Desenvolvemos o código para fazer leituras constantes desses sensores.
-  - Configuramos a conexão do ESP32 a uma rede **Wi-Fi** e integramos com o protocolo **MQTT** para enviar os dados coletados para um servidor.
+  - Configuramos a conexão do ESP32 a uma rede Wi-Fi e integramos com o protocolo MQTT para enviar os dados coletados para um servidor
 
 </br>
-3. **Envio de Dados ao Servidor:**
+3. Envio de Dados ao Servidor:
   - Usamos o broker público **HiveMQ** para enviar os dados da adega.
   - Os dados eram enviados em formato **JSON**, contendo as leituras de temperatura, umidade e luminosidade.
 
 </br>
-4. **Aplicativo MyMQTT:**
+4. Aplicativo MyMQTT:
   - Configuramos o aplicativo **MyMQTT** para ler os dados que foram enviados pelo ESP32.
   - A partir do MyMQTT, conseguimos visualizar em tempo real as condições internas da adega.
 
