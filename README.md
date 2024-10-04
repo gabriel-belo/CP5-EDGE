@@ -31,9 +31,8 @@ https://wokwi.com/projects/409870629323275265
 <h1>Materiais:</h1>
 <ul>
   <li>ESP32</li>
-  <li>Breadboard</li>
   <li>Photoresistor (LDR) Sensor</li>
-  <li>DHT22</li>
+  <li>DHT11</li>
 </ul>
 
 
@@ -47,12 +46,12 @@ Nós implementamos um projeto que utiliza o **ESP32** para capturar dados de **t
 </br>
 <h2>O que fizemos:</h2>
 </br>
-1. **Montagem dos Sensores:**
+1. Montagem dos Sensores:
   - Conectamos o DHT11 ao ESP32 para medir a temperatura e a umidade.
   - Ligamos o LDR para monitorar os níveis de luminosidade dentro da adega.
 
 </br>
-2. **Programação do ESP32:**
+2. Programação do ESP32:
   - Desenvolvemos o código para fazer leituras constantes desses sensores.
   - Configuramos a conexão do ESP32 a uma rede **Wi-Fi** e integramos com o protocolo **MQTT** para enviar os dados coletados para um servidor.
 
